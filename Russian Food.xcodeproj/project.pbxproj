@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04184C9D14CDF52D00BF6A22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04184C9C14CDF52D00BF6A22 /* UIKit.framework */; };
+		04184C9F14CDF52D00BF6A22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04184C9E14CDF52D00BF6A22 /* Foundation.framework */; };
+		04184CA114CDF52D00BF6A22 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04184CA014CDF52D00BF6A22 /* CoreGraphics.framework */; };
+		04184CA714CDF52D00BF6A22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04184CA514CDF52D00BF6A22 /* InfoPlist.strings */; };
+		04184CA914CDF52D00BF6A22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04184CA814CDF52D00BF6A22 /* main.m */; };
+		04184CAD14CDF52D00BF6A22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04184CAC14CDF52D00BF6A22 /* AppDelegate.m */; };
+		04184CB014CDF52D00BF6A22 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04184CAF14CDF52D00BF6A22 /* FirstViewController.m */; };
+		04184CB214CDF52D00BF6A22 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 04184CB114CDF52D00BF6A22 /* first.png */; };
+		04184CB414CDF52D00BF6A22 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04184CB314CDF52D00BF6A22 /* first@2x.png */; };
+		04184CB714CDF52D00BF6A22 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04184CB614CDF52D00BF6A22 /* SecondViewController.m */; };
+		04184CB914CDF52D00BF6A22 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 04184CB814CDF52D00BF6A22 /* second.png */; };
+		04184CBB14CDF52D00BF6A22 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04184CBA14CDF52D00BF6A22 /* second@2x.png */; };
+		04184CBE14CDF52D00BF6A22 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04184CBC14CDF52D00BF6A22 /* FirstViewController.xib */; };
+		04184CC114CDF52D00BF6A22 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04184CBF14CDF52D00BF6A22 /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04184C9814CDF52D00BF6A22 /* Russian Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Russian Food.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04184C9C14CDF52D00BF6A22 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04184C9E14CDF52D00BF6A22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04184CA014CDF52D00BF6A22 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04184CA414CDF52D00BF6A22 /* Russian Food-Info.plist */ = {isa = PBXFileReference; path = "Russian Food-Info.plist"; sourceTree = "<group>"; };
+		04184CA614CDF52D00BF6A22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04184CA814CDF52D00BF6A22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04184CAA14CDF52D00BF6A22 /* Russian Food-Prefix.pch */ = {isa = PBXFileReference; path = "Russian Food-Prefix.pch"; sourceTree = "<group>"; };
+		04184CAB14CDF52D00BF6A22 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		04184CAC14CDF52D00BF6A22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04184CAE14CDF52D00BF6A22 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		04184CAF14CDF52D00BF6A22 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		04184CB114CDF52D00BF6A22 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		04184CB314CDF52D00BF6A22 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		04184CB514CDF52D00BF6A22 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		04184CB614CDF52D00BF6A22 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		04184CB814CDF52D00BF6A22 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		04184CBA14CDF52D00BF6A22 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		04184CBD14CDF52D00BF6A22 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		04184CC014CDF52D00BF6A22 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04184C9514CDF52D00BF6A22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04184C9D14CDF52D00BF6A22 /* UIKit.framework in Frameworks */,
+				04184C9F14CDF52D00BF6A22 /* Foundation.framework in Frameworks */,
+				04184CA114CDF52D00BF6A22 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04184C8D14CDF52D00BF6A22 = {
+			isa = PBXGroup;
+			children = (
+				04184CA214CDF52D00BF6A22 /* Russian Food */,
+				04184C9B14CDF52D00BF6A22 /* Frameworks */,
+				04184C9914CDF52D00BF6A22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04184C9914CDF52D00BF6A22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04184C9814CDF52D00BF6A22 /* Russian Food.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04184C9B14CDF52D00BF6A22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04184C9C14CDF52D00BF6A22 /* UIKit.framework */,
+				04184C9E14CDF52D00BF6A22 /* Foundation.framework */,
+				04184CA014CDF52D00BF6A22 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04184CA214CDF52D00BF6A22 /* Russian Food */ = {
+			isa = PBXGroup;
+			children = (
+				04184CAB14CDF52D00BF6A22 /* AppDelegate.h */,
+				04184CAC14CDF52D00BF6A22 /* AppDelegate.m */,
+				04184CAE14CDF52D00BF6A22 /* FirstViewController.h */,
+				04184CAF14CDF52D00BF6A22 /* FirstViewController.m */,
+				04184CB114CDF52D00BF6A22 /* first.png */,
+				04184CB314CDF52D00BF6A22 /* first@2x.png */,
+				04184CB514CDF52D00BF6A22 /* SecondViewController.h */,
+				04184CB614CDF52D00BF6A22 /* SecondViewController.m */,
+				04184CB814CDF52D00BF6A22 /* second.png */,
+				04184CBA14CDF52D00BF6A22 /* second@2x.png */,
+				04184CBC14CDF52D00BF6A22 /* FirstViewController.xib */,
+				04184CBF14CDF52D00BF6A22 /* SecondViewController.xib */,
+				04184CA314CDF52D00BF6A22 /* Supporting Files */,
+			);
+			path = "Russian Food";
+			sourceTree = "<group>";
+		};
+		04184CA314CDF52D00BF6A22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04184CA414CDF52D00BF6A22 /* Russian Food-Info.plist */,
+				04184CA514CDF52D00BF6A22 /* InfoPlist.strings */,
+				04184CA814CDF52D00BF6A22 /* main.m */,
+				04184CAA14CDF52D00BF6A22 /* Russian Food-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04184C9714CDF52D00BF6A22 /* Russian Food */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04184CC414CDF52D00BF6A22 /* Build configuration list for PBXNativeTarget "Russian Food" */;
+			buildPhases = (
+				04184C9414CDF52D00BF6A22 /* Sources */,
+				04184C9514CDF52D00BF6A22 /* Frameworks */,
+				04184C9614CDF52D00BF6A22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Russian Food";
+			productName = "Russian Food";
+			productReference = 04184C9814CDF52D00BF6A22 /* Russian Food.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04184C8F14CDF52D00BF6A22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = AppFox;
+			};
+			buildConfigurationList = 04184C9214CDF52D00BF6A22 /* Build configuration list for PBXProject "Russian Food" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04184C8D14CDF52D00BF6A22;
+			productRefGroup = 04184C9914CDF52D00BF6A22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04184C9714CDF52D00BF6A22 /* Russian Food */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04184C9614CDF52D00BF6A22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04184CA714CDF52D00BF6A22 /* InfoPlist.strings in Resources */,
+				04184CB214CDF52D00BF6A22 /* first.png in Resources */,
+				04184CB414CDF52D00BF6A22 /* first@2x.png in Resources */,
+				04184CB914CDF52D00BF6A22 /* second.png in Resources */,
+				04184CBB14CDF52D00BF6A22 /* second@2x.png in Resources */,
+				04184CBE14CDF52D00BF6A22 /* FirstViewController.xib in Resources */,
+				04184CC114CDF52D00BF6A22 /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04184C9414CDF52D00BF6A22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04184CA914CDF52D00BF6A22 /* main.m in Sources */,
+				04184CAD14CDF52D00BF6A22 /* AppDelegate.m in Sources */,
+				04184CB014CDF52D00BF6A22 /* FirstViewController.m in Sources */,
+				04184CB714CDF52D00BF6A22 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04184CA514CDF52D00BF6A22 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04184CA614CDF52D00BF6A22 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04184CBC14CDF52D00BF6A22 /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04184CBD14CDF52D00BF6A22 /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		04184CBF14CDF52D00BF6A22 /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04184CC014CDF52D00BF6A22 /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04184CC214CDF52D00BF6A22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04184CC314CDF52D00BF6A22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04184CC514CDF52D00BF6A22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Russian Food/Russian Food-Prefix.pch";
+				INFOPLIST_FILE = "Russian Food/Russian Food-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04184CC614CDF52D00BF6A22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Russian Food/Russian Food-Prefix.pch";
+				INFOPLIST_FILE = "Russian Food/Russian Food-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04184C9214CDF52D00BF6A22 /* Build configuration list for PBXProject "Russian Food" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04184CC214CDF52D00BF6A22 /* Debug */,
+				04184CC314CDF52D00BF6A22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04184CC414CDF52D00BF6A22 /* Build configuration list for PBXNativeTarget "Russian Food" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04184CC514CDF52D00BF6A22 /* Debug */,
+				04184CC614CDF52D00BF6A22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04184C8F14CDF52D00BF6A22 /* Project object */;
+}
