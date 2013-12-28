@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface FavoritesViewController : UIViewController
-
+{
+    
+    IBOutlet UITableView *tableView1;
+    
+    __weak UIViewController *shoppingListViewController;
+    
+}
+@property (nonatomic, weak) UIViewController *shoppingListViewController;
 @end

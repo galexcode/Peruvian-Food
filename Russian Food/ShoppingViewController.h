@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ShoppingViewController : UIViewController
+{
+    
+    IBOutlet UITableView *tableView1;
+    NSMutableArray *shoppingList;
+
+    NSMutableArray *views;
+}
 
 @end

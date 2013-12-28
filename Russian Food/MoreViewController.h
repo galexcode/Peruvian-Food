@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface MoreViewController : UIViewController
-
+{
+    NSArray *data;
+    IBOutlet UITableView *tableView;
+}
 @end

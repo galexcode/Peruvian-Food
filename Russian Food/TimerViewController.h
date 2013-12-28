@@ -9,5 +9,17 @@
 #import <UIKit/UIKit.h>
 
 @interface TimerViewController : UIViewController
+{
+    
+    IBOutlet UIDatePicker *timePicker;
+    BOOL started;
+    int minLeft;
+    
+    IBOutlet UILabel *timeLeft;
+    IBOutlet UIButton *startStopButton;
+    NSTimer *timer;
+    BOOL visible;
+}
+- (IBAction)startStopPressed:(id)sender;
 
 @end

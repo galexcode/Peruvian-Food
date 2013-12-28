@@ -1,15 +1,16 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@class Possession;
-
-@interface HomepwnerItemCell : UITableViewCell
+@interface PreparationCell : UITableViewCell
 {
-    UILabel *valueLabel;
-    UILabel *nameLabel;
-    UIImageView *imageView;
-}
 
-- (void)setPossession:(Possession *)possession;
+    IBOutlet UIView *view;
+    
+    IBOutlet UILabel *step;
+    IBOutlet UITextView *direction;
+}
+@property (nonatomic, strong) UILabel *step;
+@property (nonatomic, strong) UITextView *direction;
+
 
 @end

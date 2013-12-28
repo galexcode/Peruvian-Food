@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface TableHeaderView : UIView
-
+{
+    
+    IBOutlet UIView *view;
+}
+@property (strong, nonatomic) IBOutlet UILabel *title;
+- (UIView *)view;
 @end

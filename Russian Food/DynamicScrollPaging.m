@@ -18,7 +18,17 @@
     }
     return self;
 }
-
+- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
+    if ([self pointInside:point withEvent:event]) {
+        if ([[self subviews] count] > 0) {
+            //force return of first child, if exists
+            return [[self subviews] objectAtIndex:0];
+        } else {
+            return self;
+        }
+    }
+    return nil;
+}
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.

@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HelpViewController : UIViewController
-
+@interface HelpViewController : UIViewController <UIScrollViewDelegate>
+{
+	
+	IBOutlet UIScrollView *scrollView;
+	
+	IBOutlet UIView *firstScreen;
+	IBOutlet UIView *secondScreen;
+	IBOutlet UIView *thirdScreen;
+	IBOutlet UIView *fourthScreen;
+	IBOutlet UIView *fifthScreen;
+	
+	IBOutlet UIPageControl *pageControl;
+}
 @end
